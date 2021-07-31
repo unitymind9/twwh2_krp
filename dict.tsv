@@ -191,6 +191,7 @@ key	value
 {vmp_ror_vargheists}	슈바르츠하펜의 악마들
 {vmp_strigoi_vampire_lord}	스트리고이 뱀파이어 군주
 {vmp_strigoi_ghoul_king}	스트리고이 시귀 왕
+{vmp_zombie_dragon}	시체룡
 {vmp_corpse_cart}	시체 수레
 {vmp_corpse_cart_unholy_lodestone}	시체 수레 (불경한 자철석)
 {vmp_corpse_cart_balefire}	시체 수레 (화톳불)
@@ -417,6 +418,7 @@ key	value
 {chs_ror_chaos_knights_full}	카오스의 검 (카오스 기사)
 {chs_ror_chaos_knights}	카오스의 검
 {chs_kholek_suneater}	콜렉 선이터
+{chs_chaos_dragon}	혼돈룡
 {chs_chaos_spawn}	혼돈의 산물
 {bst_razorgors}	가시고어
 {bst_razorgor_herd}	가시고어 무리
@@ -457,6 +459,7 @@ key	value
 {bst_the_salzenmund_soul_eaters}	잘첸문트 영혼 포식자
 {bst_jabberslythe}	재버슬리드
 {bst_wargor}	전쟁고어
+{bst_bestigor}	최상고어
 {bst_bestigor_herd}	최상고어 무리
 {bst_ror_minotaurs_shields_full}	칼켄가르드의 도살자 (미노타우르스 - 방패)
 {bst_ror_minotaurs_shields}	칼켄가르드의 도살자
@@ -601,7 +604,7 @@ key	value
 {nor_ror_marauders_full}	얼음뿔 약탈꾼 (약탈자)
 {nor_ror_marauders}	얼음뿔 약탈꾼
 {nor_ror_war_mammoth_full}	영혼을 짓밟는 발 (전쟁 맘모스)
-{nor_ror_war_mammoth}	영혼을 짓밟는 발 (전쟁 맘모스)
+{nor_ror_war_mammoth}	영혼을 짓밟는 발
 {fimir_balefiend}	재앙의 마귀 피미르
 {fimir_balefiend_shadows}	재앙의 마귀 피미르 (그림자)
 {fimir_balefiend_fire}	재앙의 마귀 피미르 (화염)
@@ -621,7 +624,7 @@ key	value
 [hef_gate_guard}	관문 경비병
 {hef_alarielle_the_radiant}	광명의 알라리엘
 {hef_archers_light_armour}	궁병 (경갑)
------보류-----	귀족
+{hef_noble}	귀족
 {hef_shadow_walkers}	그늘을 걷는 자
 {hef_hand_of_the_shadow_crown}	그림자 왕관의 손
 {hef_shadow_warriors}	그림자 전사
@@ -767,287 +770,349 @@ key	value
 {def_dreadlord_sword_and_shield}	전율의 군주 (검과 방패)
 {def_dreadlord_sword_and_crossbow}	전율의 군주 (검과 쇠뇌)
 {def_dreadspears}	전율의 창
-전쟁 히드라	전쟁 히드라
+{def_war_hydra}	전쟁 히드라
 {def_bleakswords}	절망의 검
-죽음의 노파	죽음의 노파
+{def_death_hag}	죽음의 노파
 {def_darkshards}	칠흑의 화살
 {def_darkshards_shields}	칠흑의 화살 (방패)
-카리브디스	카리브디스
+{def_kharibdyss}	카리브디스
 {def_khainite_assassin}	케인 교단 암살자
-케인의 까마귀떼 (하피)	케인의 까마귀떼 (하피)
+{def_ror_harpies_full}	케인의 까마귀떼 (하피)
+{def_ror_harpies}	케인의 까마귀떼
 {def_cold_one_knights}	콜드 원 기사
 {def_cold_one_dread_knights}	콜드 원 전율의 기사
 {def_cold_one_chariots}	콜드 원 전차
 {def_master}	통달자
-파멸을 노래하는 자매단 (마녀 엘프)	파멸을 노래하는 자매단 (마녀 엘프)
+{def_ror_witch_elves_full}	파멸을 노래하는 자매단 (마녀 엘프)
+{def_ror_witch_elves}	파멸을 노래하는 자매단
 {def_doomfire_warlocks}	파멸의 화염 워록
-폭발 스퀴그	폭발 스퀴그
+{def_explosive_squig}	폭발 스퀴그
 {def_bloodwrack_medusa}	피에 찌든 메두사
 {def_bloodwrack_shrine}	피에 찌든 성소
-피의 여왕의 칼날 (처형자)	피의 여왕의 칼날 (처형자)
-하르 가네스 처형자	하르 가네스 처형자
-학살의 자매단	학살의 자매단
-헬레브론의 수하 (전율의 창)	헬레브론의 수하 (전율의 창)
-화살마 (칠흑의 화살 - 방패)	화살마 (칠흑의 화살 - 방패)
-흑단 발톱 기사단 (전율의 기사단)	흑단 발톱 기사단 (전율의 기사단)
-가르간툴잔	가르간툴잔
-겔트블롬의 공포 (야생 카르노사우루스)	겔트블롬의 공포 (야생 카르노사우루스)
-고대 샐러맨더	고대 샐러맨더
-고대 스테가돈	고대 스테가돈
-고대 스테가돈 (신들의 기계)	고대 스테가돈 (신들의 기계)
-고대의 크록시거	고대의 크록시거
-고르-록	고르-록
-군주 마즈다문디	군주 마즈다문디
-군주 크로악	군주 크로악
-그늘진 조류 (샐러맨더 사냥 무리)	그늘진 조류 (샐러맨더 사냥 무리)
-드레드 사우리안	드레드 사우리안
-러스트리아의 분쇄자 (드레드 사우리안)	러스트리아의 분쇄자 (드레드 사우리안)
-레이저돈 사냥 무리	레이저돈 사냥 무리
-리퍼닥틸 기수	리퍼닥틸 기수
-바스틸라돈 (소텍의 방주)	바스틸라돈 (소텍의 방주)
-바스틸라돈 (원기회복의 수정)	바스틸라돈 (원기회복의 수정)
-바스틸라돈 (태양 제단)	바스틸라돈 (태양 제단)
-방랑자 나카이	방랑자 나카이
-별의 방 수호대 (신전 수호대)	별의 방 수호대 (신전 수호대)
-붉은 볏 스킹크	붉은 볏 스킹크
-붉은 볏 스킹크 족장	붉은 볏 스킹크 족장
+{def_ror_har_ganeth_executioners_full}	피의 여왕의 칼날 (처형자)
+{def_ror_har_ganeth_executioners}	피의 여왕의 칼날
+{def_har_ganeth_executioners}	하르 가네스 처형자
+{def_sisters_of_slaughter}	학살의 자매단
+{def_ror_dreadspears_full}	헬레브론의 수하 (전율의 창)
+{def_ror_dreadspears}	헬레브론의 수하
+{def_ror_darkshards_shields_full}	화살마 (칠흑의 화살 - 방패)
+{def_ror_darkshards_shields}	화살마
+{def_ror_dread_knights_full}	흑단 발톱 기사단 (전율의 기사단)
+{lzd_gargantulzan}	가르간툴잔
+{lzd_ror_feral_carnosaur_full}	겔트블롬의 공포 (야생 카르노사우루스)
+{lzd_ror_feral_carnosaur}	겔트블롬의 공포
+{lzd_ancient_salamander}	고대 샐러맨더
+{lzd_ancient_stegadon}	고대 스테가돈
+{lzd_ancient_stegadon_engine_of_the_gods}	고대 스테가돈 (신들의 기계)
+{lzd_kroxigor_ancient}	고대의 크록시거
+{lzd_gor_rok}	고르-록
+{lzd_lord_mazdamundi}	군주 마즈다문디
+{lzd_lord_kroak}	군주 크로악
+{lzd_ror_salamander_hunting_pack_full}	그늘진 조류 (샐러맨더 사냥 무리)
+{lzd_dread_saurian}	드레드 사우리안
+{lzd_ror_dread_saurian_full}	러스트리아의 분쇄자 (드레드 사우리안)
+{lzd_ror_dread_saurian}	러스트리아의 분쇄자
+{lzd_razordon_hunting_pack}	레이저돈 사냥 무리
+{lzd_ripperdactyl}	리퍼닥틸
+{lzd_ripperdactyl_riders}	리퍼닥틸 기수
+{lzd_bastiladon}	바스틸라돈
+{lzd_bastiladon_ark_of_sotek}	바스틸라돈 (소텍의 방주)
+{lzd_bastiladon_revivification_crystal}	바스틸라돈 (원기회복의 수정)
+{lzd_bastiladon_solar_engine}	바스틸라돈 (태양 제단)
+{lzd_nakai_the_wanderer}	방랑자 나카이
+{lzd_ror_temple_guard_full}	별의 방 수호대 (신전 수호대)
+{lzd_ror_temple_guard}	별의 방 수호대
+{lzd_red_crested_skink}	붉은 볏 스킹크
+{lzd_red_crested_skink_chief}	붉은 볏 스킹크 족장
 {lzd_saurus_scar_veteran}	사우루스 스카-베테랑
 {lzd_scar_veteran}	스카 베테랑
-사우루스 올드블러드	사우루스 올드블러드
+{lzd_saurus_oldblood}	사우루스 올드블러드
 {lzd_saurus_warriors}	사우루스 전사
 {lzd_saurus_warriors_shields}	사우루스 전사 (방패)
 {lzd_saurus_spears}	사우루스 창병
 {lzd_saurus_spears_shields}	사우루스 창병 (방패)
-샐러맨더 사냥 무리	샐러맨더 사냥 무리
-소텍의 집단 (붉은 볏 스킹크)	소텍의 집단 (붉은 볏 스킹크)
+{lzd_salamander}	샐러맨더 사냥 무리
+{lzd_salamander_hunting_pack}	샐러맨더 사냥 무리
+{lzd_ror_red_crested_skinks_full}	소텍의 집단 (붉은 볏 스킹크)
+{lzd_ror_red_crested_skinks}	소텍의 집단
 {lzd_skink_priest}	스킹크 사제
-스킹크 사제 (야수)	스킹크 사제 (야수)
-스킹크 사제 (천상)	스킹크 사제 (천상)
-스킹크 사제 화신	스킹크 사제 화신
+{lzd_skink_priest_beasts}	스킹크 사제 (야수)
+{lzd_skink_priest_heavens}	스킹크 사제 (천상)
+{lzd_skink_priest_avatar}	스킹크 사제 화신
 {lzd_skink_skirmishers}	스킹크 산병
-스킹크 예언자	스킹크 예언자
+{lzd_skink_oracle}	스킹크 예언자
 {lzd_skink_chief}	스킹크 족장
 {lzd_skink_cohort}	스킹크 집단
-스킹크 집단 (투창)	스킹크 집단 (투창)
-스테가돈	스테가돈
+{lzd_skink_cohort_javelins}	스킹크 집단 (투창)
+{lzd_stegadon}	스테가돈
 {lzd_mage_priest}	법사 사제
 {lzd_slann_mage_priest}	슬란 법사 사제
-슬란 법사 사제 (고위)	슬란 법사 사제 (고위)
-슬란 법사 사제 (빛)	슬란 법사 사제 (빛)
-슬란 법사 사제 (생명)	슬란 법사 사제 (생명)
-슬란 법사 사제 (천상)	슬란 법사 사제 (천상)
-슬란 법사 사제 (화염)	슬란 법사 사제 (화염)
-신성한 크록시거	신성한 크록시거
-신전 수호대	신전 수호대
-아막손 가시덩쿨 (레이저돈 사냥 무리)	아막손 가시덩쿨 (레이저돈 사냥 무리)
-야생 바스틸라돈	야생 바스틸라돈
-야생 스테가돈	야생 스테가돈
-야생 카르노사우루스	야생 카르노사우루스
-야생 콜드 원	야생 콜드 원
-야생 트로글로돈	야생 트로글로돈
-야생의 드레드 사우리안	야생의 드레드 사우리안
-옥시오틀	옥시오틀
-우렁찬 놈 (고대 스테가돈)	우렁찬 놈 (고대 스테가돈)
-차쿠아의 군단 (사우루스 창병)	차쿠아의 군단 (사우루스 창병)
-창백한 죽음 (야생 트로글로돈)	창백한 죽음 (야생 트로글로돈)
-축복받은 바스틸라돈 (태양 제단)	축복받은 바스틸라돈 (태양 제단)
+{lzd_slann_mage_priest_high}	슬란 법사 사제 (고위)
+{lzd_slann_mage_priest_light}	슬란 법사 사제 (빛)
+{lzd_slann_mage_priest_life}	슬란 법사 사제 (생명)
+{lzd_slann_mage_priest_heavens}	슬란 법사 사제 (천상)
+{lzd_slann_mage_priest_fire}	슬란 법사 사제 (화염)
+{lzd_sacred_kroxigor}	신성한 크록시거
+{lzd_temple_guards}	신전 수호대
+{lzd_ror_razordon_hunting_pack_full}	아막손 가시덩쿨 (레이저돈 사냥 무리)
+{lzd_ror_razordon_hunting_pack}	아막손 가시덩쿨
+{lzd_feral_bastiladon}	야생 바스틸라돈
+{lzd_feral_stegadon}	야생 스테가돈
+{lzd_carnosaur}	카르노사우루스
+{lzd_feral_carnosaur}	야생 카르노사우루스
+{lzd_feral_cold_ones}	야생 콜드 원
+{lzd_feral_troglodon}	야생 트로글로돈
+{lzd_feral_dread_saurian}	야생의 드레드 사우리안
+{lzd_oxyotl}	옥시오틀
+{lzd_ror_ancient_stegadon_full}	우렁찬 놈 (고대 스테가돈)
+{lzd_ror_ancient_stegadon}	우렁찬 놈
+{lzd_ror_saurus_spears_full}	차쿠아의 군단 (사우루스 창병)
+{lzd_ror_saurus_spears}	차쿠아의 군단
+{lzd_ror_feral_troglodon_full}	창백한 죽음 (야생 트로글로돈)
+{lzd_ror_feral_troglodon}	창백한 죽음
+{lzd_blessed_bastiladon_solar_engine}	축복받은 바스틸라돈 (태양 제단)
 {lzd_blessed_saurus_warriors_shields}	축복받은 사우루스 전사 (방패)
 {lzd_blessed_saurus_spears_shields}	축복받은 사우루스 창병 (방패)
-축복받은 스킹크 산병	축복받은 스킹크 산병
-축복받은 스테가돈	축복받은 스테가돈
-축복받은 신전 수호대	축복받은 신전 수호대
-축복받은 카르노사우루스	축복받은 카르노사우루스
-축복받은 카멜레온 스킹크	축복받은 카멜레온 스킹크
-축복받은 콜드 원 기수 창병	축복받은 콜드 원 기수 창병
-축복받은 크록시거	축복받은 크록시거
-축복받은 테라돈 기수 (불거머리 올가미)	축복받은 테라돈 기수 (불거머리 올가미)
-축복받은 혼드 원	축복받은 혼드 원
-카멜레온 스킹크	카멜레온 스킹크
-카멜레온 추적자	카멜레온 추적자
-코아틀	코아틀
-콜드 원 기수	콜드 원 기수
-콜드 원 기수 창병	콜드 원 기수 창병
-콜로사돈 사냥꾼 (리퍼닥틸 기수)	콜로사돈 사냥꾼 (리퍼닥틸 기수)
-크록-가르	크록-가르
-크록시거	크록시거
-테라돈 기수	테라돈 기수
-테라돈 기수 (불거머리 올가미)	테라돈 기수 (불거머리 올가미)
-테폭의 혼령 (코아틀)	테폭의 혼령 (코아틀)
-테헨하우인	테헨하우인
-틱타크'토	틱타크'토
-파후악스의 파수꾼 (테라돈 기수)	파후악스의 파수꾼 (테라돈 기수)
-폭-호팍 집단 (콜드 원 기수 창병)	폭-호팍 집단 (콜드 원 기수 창병)
-혼드 원	혼드 원
-후아틀의 집단 (신성한 크록시거)	후아틀의 집단 (신성한 크록시거)
-검은구멍 박피기 (파멸의 박피기)	검은구멍 박피기 (파멸의 박피기)
-고리치	고리치
-괴물-놈 (헬 핏 혐오체)	괴물-놈 (헬 핏 혐오체)
-굴러다니는 파멸 (파멸의 쳇바퀴)	굴러다니는 파멸 (파멸의 쳇바퀴)
-내티 부보의 명사수 (워프락 제자일)	내티 부보의 명사수 (워프락 제자일)
-눈사태 폭격대(독 바람 박격포)	눈사태 폭격대(독 바람 박격포)
-눈알 사냥꾼 (워프락 제자일)	눈알 사냥꾼 (워프락 제자일)
-늑대 쥐	늑대 쥐
-늑대 쥐 (독)	늑대 쥐 (독)
-독 바람 박격포	독 바람 박격포
-독 바람 척탄병	독 바람 척탄병
-돌연변이 쥐 오거	돌연변이 쥐 오거
-드워프-놈 위협기 (파멸의 박피기)	드워프-놈 위협기 (파멸의 박피기)
-떼거리의 정점	떼거리의 정점
-래틀링 건	래틀링 건
-모르스키터의 쥐망나니 (돌연변이 쥐 오거)	모르스키터의 쥐망나니 (돌연변이 쥐 오거)
-무리 관리자	무리 관리자
-벌큰 클랜의 꼬리가름꾼 (클랜 쥐 - 방패)	벌큰 클랜의 꼬리가름꾼 (클랜 쥐 - 방패)
-불결한 스롯	불결한 스롯
-블라이트스캡의 역병무리 (향로 무장 역병승려)	블라이트스캡의 역병무리 (향로 무장 역병승려)
-비스크트린 사신 부대 (죽음의 주자)	비스크트린 사신 부대 (죽음의 주자)
-스케이븐 노예	스케이븐 노예
-스케이븐 노예 창병	스케이븐 노예 창병
-스케이븐 노예 투석병	스케이븐 노예 투석병
-스크롤크 군주	스크롤크 군주
-시프-고어의 지옥 야수	시프-고어의 지옥 야수
-심야의 주자	심야의 주자
-심야의 주자 (투석)	심야의 주자 (투석)
-암살의 달인	암살의 달인
-암살자	암살자
-에신 마도사	에신 마도사
-에신 삼합회	에신 삼합회
-역병갈퀴 투척기	역병갈퀴 투척기
-역병사제	역병사제
-역병승려	역병승려
-워록 공학자	워록 공학자
-워록 마스터	워록 마스터
-워프 굴착꾼	워프 굴착꾼
-워프 벼락 포대	워프 벼락 포대
-워프락 제자일	워프락 제자일
-워프불꽃 바퀴 (파멸의 쳇바퀴)	워프불꽃 바퀴 (파멸의 쳇바퀴)
-워프화염 방사기	워프화염 방사기
-의회 근위대 (해악의 폭풍 - 미늘창)	의회 근위대 (해악의 폭풍 - 미늘창)
-이빨 분쇄자 (래틀링 건)	이빨 분쇄자 (래틀링 건)
-이킷 클로	이킷 클로
-이킷의 찌릿-찌릿! (워프 벼락 포대)	이킷의 찌릿-찌릿! (워프 벼락 포대)
-익샤 삼합회 (에신 삼합회)	익샤 삼합회 (에신 삼합회)
-익샤 삼합회(에신 삼합회)	익샤 삼합회(에신 삼합회)
-익샤 삼합회(에신 삼합회) - 미끼	익샤 삼합회(에신 삼합회) - 미끼
-잿빛 예언자 (역병)	잿빛 예언자 (역병)
-잿빛 예언자 (파멸)	잿빛 예언자 (파멸)
-전쟁군주	전쟁군주
-죽음 구슬 척탄병	죽음 구슬 척탄병
-죽음의 달인 스닉치	죽음의 달인 스닉치
-죽음의 달인 스닉치 (차르칸)	죽음의 달인 스닉치 (차르칸)
-죽음의 상인 (래틀링 건)	죽음의 상인 (래틀링 건)
-죽음의 주자	죽음의 주자
-쥐 오거	쥐 오거
-지옥 심연의 투기장 싸움꾼 (쥐 오거)	지옥 심연의 투기장 싸움꾼 (쥐 오거)
-퀵 헤드테이커	퀵 헤드테이커
-클랜 쥐	클랜 쥐
-클랜 쥐 (방패)	클랜 쥐 (방패)
-클랜 쥐 창병	클랜 쥐 창병
-클랜 쥐 창병 (방패)	클랜 쥐 창병 (방패)
-트레치 크레이븐테일	트레치 크레이븐테일
-파멸의 박피기	파멸의 박피기
-파멸의 인도자 (워프화염 방사기)	파멸의 인도자 (워프화염 방사기)
-파멸의 쳇바퀴	파멸의 쳇바퀴
-하수도 주자	하수도 주자
-하수도 주자 (독)	하수도 주자 (독)
-하수도 주자 투석병	하수도 주자 투석병
-하수도 주자 투석병 (독)	하수도 주자 투석병 (독)
-해악의 폭풍 (검과 방패)	해악의 폭풍 (검과 방패)
-해악의 폭풍 (미늘창)	해악의 폭풍 (미늘창)
-향로 무장 역병승려	향로 무장 역병승려
-헬 핏 혐오체	헬 핏 혐오체
-검은 아칸	검은 아칸
-고위 여왕 칼리다	고위 여왕 칼리다
-네케쉬 왕의 전갈 군단 (해골 창병)	네케쉬 왕의 전갈 군단 (해골 창병)
-네헤카라 기수	네헤카라 기수
-네헤카라 워리어	네헤카라 워리어
-대사제장 카텝	대사제장 카텝
-드자프의 무리 (시체 포식조)	드자프의 무리 (시체 포식조)
-리치 사제 (그림자)	리치 사제 (그림자)
-리치 사제 (네헤카라)	리치 사제 (네헤카라)
-리치 사제(빛)	리치 사제(빛)
-리치 사제(죽음)	리치 사제(죽음)
-불멸의 세트라	불멸의 세트라
-불사공학자	불사공학자
-불사왕국 기사단	불사왕국 기사단
-불사왕국 기사단 (미늘창)	불사왕국 기사단 (미늘창)
-불사의 스핑크스	불사의 스핑크스
-뼈 거인	뼈 거인
-사막의 눈(음침한 추적자)	사막의 눈(음침한 추적자)
-시체 포식조	시체 포식조
-신성 거신	신성 거신
-신의 선택을 받은 자(우샤브티 - 대형 활)	신의 선택을 받은 자(우샤브티 - 대형 활)
-아사프의 맹독 기사단 (불사왕국 기사단)	아사프의 맹독 기사단 (불사왕국 기사단)
-영혼의 함	영혼의 함
-왕릉 근위대	왕릉 근위대
-왕릉 근위대 (미늘창)	왕릉 근위대 (미늘창)
-왕릉 대공	왕릉 대공
-왕릉 전갈	왕릉 전갈
-왕릉왕	왕릉왕
-우샤브티	우샤브티
-우샤브티 (대형 활)	우샤브티 (대형 활)
-우섹프의 스핑크스 (불사의 스핑크스)	우섹프의 스핑크스 (불사의 스핑크스)
-우시리안의 명계 군단(네헤카라 워리어)	우시리안의 명계 군단(네헤카라 워리어)
-음침한 추적자	음침한 추적자
-절규하는 해골 투석기	절규하는 해골 투석기
-케프라 근위대 (왕릉 근위대)	케프라 근위대 (왕릉 근위대)
-켐리의 전쟁 스핑크스	켐리의 전쟁 스핑크스
-크사르의 폭풍의 기수 (네헤카라 기수)	크사르의 폭풍의 기수 (네헤카라 기수)
-파크스의 축복받은 군단 (해골 궁병)	파크스의 축복받은 군단 (해골 궁병)
-해골 궁병	해골 궁병
-해골 궁병 전차	해골 궁병 전차
-해골 기수	해골 기수
-해골 기수 궁병	해골 기수 궁병
-해골 전차	해골 전차
-갑판 침투꾼	갑판 침투꾼
-갑판 침투꾼 (소총)	갑판 침투꾼 (소총)
-갑판 침투꾼(폭탄 무장)	갑판 침투꾼(폭탄 무장)
-갑판 포수	갑판 포수
-검은 반점 (좀비 해적 사수 무리 - 소총)	검은 반점 (좀비 해적 사수 무리 - 소총)
-괴혈병 걸린 개	괴혈병 걸린 개
-교수대 거인(네크로펙스 거신)	교수대 거인(네크로펙스 거신)
-그림자망령 포수(갑판 포수)	그림자망령 포수(갑판 포수)
-네크로펙스 거신	네크로펙스 거신
-녹틸루스 백작	녹틸루스 백작
-단신 함포	단신 함포
-되살아난 덩치	되살아난 덩치
-램프리 호의 복수단 (부패한 프로미디언 사수 무리)	램프리 호의 복수단 (부패한 프로미디언 사수 무리)
-루터 하콘	루터 하콘
-밤의 공포 (아귀 떼)	밤의 공포 (아귀 떼)
-뱀파이어 함대 선장(뱀파이어)	뱀파이어 함대 선장(뱀파이어)
-뱀파이어 함대 선장(심연)	뱀파이어 함대 선장(심연)
-뱀파이어 함대 선장(죽음)	뱀파이어 함대 선장(죽음)
-뱀파이어 함대 제독(권총 - 뱀파이어)	뱀파이어 함대 제독(권총 - 뱀파이어)
-뱀파이어 함대 제독(권총 - 심연)	뱀파이어 함대 제독(권총 - 심연)
-뱀파이어 함대 제독(권총 - 죽음)	뱀파이어 함대 제독(권총 - 죽음)
-뱀파이어 함대 제독(폴암 - 뱀파이어)	뱀파이어 함대 제독(폴암 - 뱀파이어)
-뱀파이어 함대 제독(폴암 - 심연)	뱀파이어 함대 제독(폴암 - 심연)
-뱀파이어 함대 제독(폴암 - 죽음)	뱀파이어 함대 제독(폴암 - 죽음)
-부패한 리바이어던	부패한 리바이어던
-부패한 프로미디언	부패한 프로미디언
-부패한 프로미디언 사수 무리	부패한 프로미디언 사수 무리
-불어터진 시체	불어터진 시체
-사르토사 민병대	사르토사 민병대
-사르토사 용병대	사르토사 용병대
-사이린	사이린
-사일로스트라 다이어핀	사일로스트라 다이어핀
-소금 군주 패거리 (갑판 침투꾼 - 폭탄)	소금 군주 패거리 (갑판 침투꾼 - 폭탄)
-스키욜드의 물결(좀비 해적 갑판원 무리)	스키욜드의 물결(좀비 해적 갑판원 무리)
-심연 근위대	심연 근위대
-심연 근위대 (도끼창)	심연 근위대 (도끼창)
-아귀 떼	아귀 떼
-아귀령	아귀령
-아라네사 솔트스파이트	아라네사 솔트스파이트
-여왕 베스	여왕 베스
-저주받은 성전사	저주받은 성전사
-저주받은 수행 기사	저주받은 수행 기사
-저주받은 왕국의 기사	저주받은 왕국의 기사
-저주받은 편력 기사	저주받은 편력 기사
-좀비 해적 갑판원 무리	좀비 해적 갑판원 무리
-좀비 해적 갑판원 무리 (도끼창)	좀비 해적 갑판원 무리 (도끼창)
-좀비 해적 사수 무리	좀비 해적 사수 무리
-좀비 해적 사수 무리 (소총)	좀비 해적 사수 무리 (소총)
-좀비 해적 사수 무리 (총통)	좀비 해적 사수 무리 (총통)
-좀비 해적 사수 무리 (폭탄)	좀비 해적 사수 무리 (폭탄)
-죽음의 비명 테러가이스트	죽음의 비명 테러가이스트
-포수 망령	포수 망령
-핏빛 약탈자 갑판 경비병 (심연 근위대)	핏빛 약탈자 갑판 경비병 (심연 근위대)
+{lzd_blessed_skink_skirmishers}	축복받은 스킹크 산병
+{lzd_blessed_stegadon}	축복받은 스테가돈
+{lzd_blessed_temple_guards}	축복받은 신전 수호대
+{lzd_blessed_carnosaur}	축복받은 카르노사우루스
+{lzd_blessed_chameleon_skinks}	축복받은 카멜레온 스킹크
+{lzd_blessed_cold_one_spear_riders}	축복받은 콜드 원 기수 창병
+{lzd_blessed_kroxigor}	축복받은 크록시거
+{lzd_blessed_terradon_riders_fireleech_bolas}	축복받은 테라돈 기수 (불거머리 올가미)
+{lzd_blessed_horned_ones}	축복받은 혼드 원
+{lzd_chameleon_skinks}	카멜레온 스킹크
+{lzd_chameleon_stalkers}	카멜레온 추적자
+{lzd_coatl}	코아틀
+{lzd_cold_one_riders}	콜드 원 기수
+{lzd_cold_one_spear_riders}	콜드 원 기수 창병
+{lzd_ror_ripperdactyl_riders_full}	콜로사돈 사냥꾼 (리퍼닥틸 기수)
+{lzd_ror_ripperdactyl_riders}	콜로사돈 사냥꾼
+{lzd_kroq_gar}	크록-가르
+{lzd_kroxigor}	크록시거
+{lzd_terradon}	테라돈
+{lzd_terradon_riders}	테라돈 기수
+{lzd_terradon_riders_fireleech_bolas}	테라돈 기수 (불거머리 올가미)
+{lzd_ror_coatl_full}	테폭의 혼령 (코아틀)
+{lzd_ror_coatl}	테폭의 혼령
+{lzd_tehenhauin}	테헨하우인
+{lzd_tiktaqto}	틱타크'토
+{lzd_ror_terradon_riders_full}	파후악스의 파수꾼 (테라돈 기수)
+{lzd_ror_terradon_riders}	파후악스의 파수꾼
+{lzd_ror_cold_one_spear_riders_full}	폭-호팍 집단 (콜드 원 기수 창병)
+{lzd_ror_cold_one_spear_riders}	폭-호팍 집단
+{lzd_horned_ones}	혼드 원
+{lzd_ror_sacred_kroxigor_full}	후아틀의 집단 (신성한 크록시거)
+{lzd_ror_sacred_kroxigor}	후아틀의 집단
+{skv_ror_doom_flayers_black_full}	검은구멍 박피기 (파멸의 박피기)
+{skv_ghoritch}	고리치
+{skv_ror_hell_pit_abomination_full}	괴물-놈 (헬 핏 혐오체)
+{skv_ror_hell_pit_abomination}	괴물-놈
+{skv_ror_doomwheel_full} 	굴러다니는 파멸 (파멸의 쳇바퀴)
+{skv_ror_doomwheel} 	굴러다니는 파멸
+{skv_ror_warplock_jezails_natty_full}	내티 부보의 명사수 (워프락 제자일)
+{skv_ror_warplock_jezails_natty}	내티 부보의 명사수
+{skv_ror_poisoned_wind_mortars_full}	눈사태 폭격대 (독 바람 박격포)
+{skv_ror_poisoned_wind_mortars}	눈사태 폭격대
+{skv_ror_warplock_jezails_eye_full}	눈알 사냥꾼 (워프락 제자일)
+{skv_wolf_rats}	늑대 쥐
+{skv_wolf_rats_poison}	늑대 쥐 (독)
+{skv_poisoned_wind_mortars}	독 바람 박격포
+{skv_poisoned_wind_globadiers}	독 바람 척탄병
+{skv_mutant_rat_ogre}	돌연변이 쥐 오거
+{skv_ror_doom_flayers_dwarf_full}	드워프-놈 위협기 (파멸의 박피기)
+{skv_ror_doom_flayers_dwarf}	드워프-놈 위협기
+{skv_brood_horror}	떼거리의 정점
+{skv_ratling_guns}	래틀링 건
+{skv_ror_mutant_rat_ogre_full}	모르스키터의 쥐망나니 (돌연변이 쥐 오거)
+{skv_ror_mutant_rat_ogre}	모르스키터의 쥐망나니
+{skv_packmaster}	무리 관리자
+{skv_ror_clanrats_shields_full}	벌큰 클랜의 꼬리가름꾼 (클랜 쥐 - 방패)
+{skv_ror_clanrats_shields}	벌큰 클랜의 꼬리가름꾼
+{skv_throt_the_unclean}	불결한 스롯
+{skv_ror_plague_monk_censer_bearers_full}	블라이트스캡의 역병무리 (향로 무장 역병승려)
+{skv_ror_plague_monk_censer_bearers}	블라이트스캡의 역병무리
+{skv_ror_death_runners_full}	비스크트린 사신 부대 (죽음의 주자)
+{skv_ror_death_runners}	비스크트린 사신 부대
+{skv_skavenslaves}	스케이븐 노예
+{skv_skavenslave_spears}	스케이븐 노예 창병
+{skv_skavenslave_slingers}	스케이븐 노예 투석병
+{skv_lord_skrolk}	스크롤크 군주
+{skv_the_hellbeast_of_seep_gore}	시프-고어의 지옥 야수
+{skv_night_runners}	심야의 주자
+{skv_night_runners_slings}	심야의 주자 (투석)
+{skv_master_assassin}	암살의 달인
+{skv_assassin}	암살자
+{skv_eshin_sorcerer}	에신 마도사
+{skv_eshin_triads}	에신 삼합회
+{skv_plagueclaw_catapults}	역병갈퀴 투척기
+{skv_plague_priest}	역병사제
+{skv_plague_monks}	역병승려
+{skv_warlock_engineer}	워록 공학자
+{skv_warlock_master}	워록 마스터
+{skv_warp_grinders}	워프 굴착꾼
+{skv_warp_lightning_cannons}	워프 벼락 포대
+{skv_warplock_jezails}	워프락 제자일
+{skv_ror_doomwheel_warpfire_full}	워프불꽃 바퀴 (파멸의 쳇바퀴)
+{skv_ror_doomwheel}	워프불꽃 바퀴
+{skv_warpfire_throwers}	워프화염 방사기
+{skv_ror_stormvermin_halberds_full}	의회 근위대 (해악의 폭풍 - 미늘창)
+{skv_ror_stormvermin_halberds}	의회 근위대
+{skv_ror_ratling_guns_teeth_full}	이빨 분쇄자 (래틀링 건)
+{skv_ror_rat_ogres_full}	이빨 분쇄자
+{skv_ikit_claw}	이킷 클로
+{skv_ror_warp_lightning_cannons_full}	이킷의 찌릿-찌릿! (워프 벼락 포대)
+{skv_ror_warp_lightning_cannons}	이킷의 찌릿-찌릿!
+{skv_ror_eshin_triads_full}	익샤 삼합회 (에신 삼합회)
+{skv_ror_eshin_triads}	익샤 삼합회
+{skv_grey_seer}	잿빛 예언자
+{skv_grey_seer_plague}	잿빛 예언자 (역병)
+{skv_grey_seer_ruin}	잿빛 예언자 (파멸)
+{skv_warlord}	전쟁군주
+{skv_death_globe_bombardiers}	죽음 구슬 척탄병
+{skv_deathmaster_snikch}	죽음의 달인 스닉치
+{skv_ror_ratling_guns_death_full}	죽음의 상인 (래틀링 건)
+{skv_death_runners}	죽음의 주자
+{skv_rat_ogres}	쥐 오거
+{skv_ror_rat_ogres_full}	지옥 심연의 투기장 싸움꾼 (쥐 오거)
+{skv_ror_rat_ogres}	지옥 심연의 투기장 싸움꾼
+{skv_queek_headtaker}	퀵 헤드테이커
+{skv_clanrats}	클랜 쥐
+{skv_clanrats_shields}	클랜 쥐 (방패)
+{skv_clanrat_spears}	클랜 쥐 창병
+{skv_clanrat_spears_shields}	클랜 쥐 창병 (방패)
+{skv_tretch_craventail}	트레치 크레이븐테일
+{skv_doom_flayers}	파멸의 박피기
+{skv_ror_warpfire_throwers_full}	파멸의 인도자 (워프화염 방사기)
+{skv_doomwheel}	파멸의 쳇바퀴
+{skv_gutter_runners}	하수도 주자
+{skv_gutter_runners_poison}	하수도 주자 (독)
+{skv_gutter_runner_slingers}	하수도 주자 투석병
+{skv_gutter_runner_slingers_poison}	하수도 주자 투석병 (독)
+{skv_stormvermin}	해악의 폭풍
+{skv_stormvermin_sword_and_shield}	해악의 폭풍 (검과 방패)
+{skv_stormvermin_halberds}	해악의 폭풍 (미늘창)
+{skv_plague_monk_censer_bearers}	향로 무장 역병승려
+{skv_hell_pit_abomination}	헬 핏 혐오체
+{tmb_arkhan_the_black}	검은 아칸
+{tmb_high_queen_khalida}	고위 여왕 칼리다
+{vmp_ror_skeleton_spearmen_full}	네케쉬 왕의 전갈 군단 (해골 창병)
+{vmp_ror_skeleton_spearmen}	네케쉬 왕의 전갈 군단
+{tmb_nehekhara_horsemen}	네헤카라 기수
+{tmb_nehekhara_warriors}	네헤카라 워리어
+{tmb_grand_hierophant_khatep}	대사제장 카텝
+{tmb_ror_the_flock_of_djaf_full}	드자프의 무리 (시체 포식조)
+{tmb_liche_priest}	리치 사제
+{tmb_liche_priest_shadows}	리치 사제 (그림자)
+{tmb_liche_priest_nehekara}	리치 사제 (네헤카라)
+{tmb_liche_priest_light}	리치 사제 (빛)
+{tmb_liche_priest_death}	리치 사제 (죽음)
+{tmb_settra_the_imperishable}	불멸의 세트라
+{tmb_necrotect}	불사공학자
+{tmb_necropolis_knights}	불사왕국 기사단
+{tmb_necropolis_knights_halberds}	불사왕국 기사단 (미늘창)
+{tmb_necrosphinx}	불사의 스핑크스
+{tmb_bone_giant}	뼈 거인
+{tmb_ror_sepulchral_stalkers_full}	사막의 눈 (음침한 추적자)
+{tmb_ror_sepulchral_stalkers}	사막의 눈
+{tmb_carrion}	시체 포식조
+{tmb_hierotitan}	신성 거신
+{tmb_ror_ushabti_great_bow_full}	신의 선택을 받은 자 (우샤브티 - 대형 활)
+{tmb_ror_ushabti_great_bow}	신의 선택을 받은 자
+{tmb_ror_necropolis_knights_full}	아사프의 맹독 기사단 (불사왕국 기사단)
+{tmb_casket_of_souls}	영혼의 함
+{tmb_tomb_guard}	왕릉 근위대
+{tmb_tomb_guard_halberds}	왕릉 근위대 (미늘창)
+{tmb_tomb_prince}	왕릉 대공
+{tmb_tomb_scorpion}	왕릉 전갈
+{tmb_tomb_king}	왕릉왕
+{tmb_ushabti}	우샤브티
+{tmb_ushabti_great_bow}	우샤브티 (대형 활)
+{tmb_ror_necrosphinx_full}	우섹프의 스핑크스 (불사의 스핑크스)
+{tmb_ror_necrosphinx}	우섹프의 스핑크스
+{tmb_ror_nehekara_warriors_full}	우시리안의 명계 군단 (네헤카라 워리어)
+{tmb_sepulchral_stalkers}	음침한 추적자
+{tmb_screaming_skull_catapults}	절규하는 해골 투석기
+{tmb_ror_tomb_guard_full}	케프라 근위대 (왕릉 근위대)
+{tmb_ror_tomb_guard}	케프라 근위대
+{tmb_khemrian_warsphinx}	켐리의 전쟁 스핑크스
+{tmb_warsphinx}	전쟁 스핑크스
+{tmb_ror_nehekhara_horsemen_full}	크사르의 폭풍의 기수 (네헤카라 기수)
+{tmb_ror_skeleton_archers_full}	파크스의 축복받은 군단 (해골 궁병)
+{tmb_skeleton_archers}	해골 궁병
+{tmb_skeleton_archer_chariots}	해골 궁병 전차
+{tmb_skeleton_horsemen}	해골 기수
+{tmb_skeleton_horse_archers}	해골 기수 궁병
+{tmb_skeleton_chariots}	해골 전차
+{cst_deck_droppers}	갑판 침투꾼
+{cst_deck_droppers_handguns}	갑판 침투꾼 (소총)
+{cst_deck_droppers_bombers}	갑판 침투꾼 (폭탄 무장)
+{cst_deck_gunners}	갑판 포수
+{cst_ror_zombie_pirate_gunnery_mob_handguns_full}	검은 반점 (좀비 해적 사수 무리 - 소총)
+{cst_scurvy_dogs}	괴혈병 걸린 개
+{cst_ror_necrofex_colossus_full}	교수대 거인 (네크로펙스 거신)
+{cst_ror_necrofex_colossus}	교수대 거인
+{cst_ror_deck_gunners_full}	그림자망령 포수 (갑판 포수)
+{cst_ror_deck_gunners}	그림자망령 포수
+{cst_necrofex_colossus}	네크로펙스 거신
+{cst_count_noctilus}	녹틸루스 백작
+{cst_carronades}	단신 함포
+{cst_animated_hulks}	되살아난 덩치
+{cst_ror_rotting_prometheans_gunnery_mob_full}	램프리 호의 복수단 (부패한 프로미디언 사수 무리)
+{cst_ror_rotting_prometheans_gunnery_mob}	램프리 호의 복수단
+{cst_luthor_harkon}	루터 하콘
+{cst_ror_mournguls_full}	밤의 공포 (아귀 떼)
+{cst_ror_mournguls}	밤의 공포
+{cst_vampire_fleet_captain}	뱀파이어 함대 선장
+{cst_vampire_fleet_captain_vampires}	뱀파이어 함대 선장(뱀파이어)
+{cst_vampire_fleet_captain_deep}	뱀파이어 함대 선장(심연)
+{cst_vampire_fleet_captain_death}	뱀파이어 함대 선장(죽음)
+{cst_vampire_fleet_admiral}	뱀파이어 함대 제독
+{cst_vampire_fleet_admiral_vampires}	뱀파이어 함대 제독(뱀파이어)
+{cst_vampire_fleet_admiral_deep}	뱀파이어 함대 제독(심연)
+{cst_vampire_fleet_admiral_death}	뱀파이어 함대 제독(죽음)
+{cst_vampire_fleet_admiral_pistol_vampires}	뱀파이어 함대 제독(권총 - 뱀파이어)
+{cst_vampire_fleet_admiral_pistol_deep}	뱀파이어 함대 제독(권총 - 심연)
+{cst_vampire_fleet_admiral_pistol_death}	뱀파이어 함대 제독(권총 - 죽음)
+{cst_vampire_fleet_admiral_polearm_vampires}	뱀파이어 함대 제독(폴암 - 뱀파이어)
+{cst_vampire_fleet_admiral_polearm_deep}	뱀파이어 함대 제독(폴암 - 심연)
+{cst_vampire_fleet_admiral_polearm_death}	뱀파이어 함대 제독(폴암 - 죽음)
+{cst_rotting_leviathan}	부패한 리바이어던
+{cst_rotting_prometheans}	부패한 프로미디언
+{cst_rotting_prometheans_gunnery_mob}	부패한 프로미디언 사수 무리
+{cst_bloated_corpse}	불어터진 시체
+{cst_sartosa_militia}	사르토사 민병대
+{cst_sartosa_free_company}	사르토사 용병대
+{cst_syreens}	사이린
+{cst_cylostra_direfin}	사일로스트라 다이어핀
+{cst_ror_deck_droppers_bombers_full}	소금 군주 패거리 (갑판 침투꾼 - 폭탄)
+{cst_ror_deck_droppers_bombers}	소금 군주 패거리
+{cst_ror_zombie_pirate_deckhands_mob_full}	스키욜드의 물결 (좀비 해적 갑판원 무리)
+{cst_ror_zombie_pirate_deckhands_mob}	스키욜드의 물결
+{cst_depth_guard}	심연 근위대
+{cst_depth_guard_polearms}	심연 근위대 (도끼창)
+{cst_mournguls}	아귀 떼
+{cst_mourngul_haunter}	아귀령
+{cst_aranessa_saltspite}	아라네사 솔트스파이트
+{cst_queen_bess}	여왕 베스
+{cst_damned_paladin}	저주받은 성전사
+{cst_damned_questing_knights}	저주받은 수행 기사
+{cst_damned_knights_of_the_realm}	저주받은 왕국의 기사
+{cst_damned_knigts_errant}	저주받은 편력 기사
+{cst_zombie_pirate_deckhands_mob}	좀비 해적 갑판원 무리
+{cst_zombie_pirate_deckhands_mob_polearms}	좀비 해적 갑판원 무리 (도끼창)
+{cst_zombie_pirate_gunnery_mob}	좀비 해적 사수 무리
+{cst_zombie_pirate_gunnery_mob_handguns}	좀비 해적 사수 무리 (소총)
+{cst_zombie_pirate_gunnery_mob_hand_cannons}	좀비 해적 사수 무리 (총통)
+{cst_zombie_pirate_gunnery_mob_bombers}	좀비 해적 사수 무리 (폭탄)
+{cst_death_shriek_terrorgheist}	죽음의 비명 테러가이스트
+{cst_gunnery_wight}	포수 망령
+{cst_ror_depth_guard_full}	핏빛 약탈자 갑판 경비병 (심연 근위대)
+{cst_ror_depth_guard}	핏빛 약탈자 갑판 경비병
+{all_great_vortex}	대와류
+{all_vortex}	와류
+{hef_ulthuan}	울수안
+{bst_brayherd}	포효의 무리
+{bst_herdstone}	무리돌
+{bst_blood_ground}	핏빛 땅
