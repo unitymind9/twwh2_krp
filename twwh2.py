@@ -1,13 +1,11 @@
 import pandas as pd
+import csv
 import os
+import tossi
 from tkinter import filedialog
 from tkinter import messagebox
+pd.set_option('mode.chained_assignment',  None)
 
-print('import main tsv...')
-main_tsv = filedialog.askopenfilename(initialdir="/", title = "main")
-main = pd.read_csv(main_tsv, sep='\t', header=1)
-
-import tossi
 def tossier(inputstring):
   str2 = '@'
   while str2 in inputstring:
@@ -39,24 +37,40 @@ def tossier(inputstring):
 
   return inputstring
 
-print('import dictionary tsv...')
-dict_tsv = filedialog.askopenfilename(initialdir="/", title = "dictonary")
-import csv
-with open(dict_tsv, newline='', encoding='UTF-8') as f:
-  reader = csv.DictReader(f, delimiter='\t')
-  dicts = {rows['key']:rows['value']+'@' for rows in reader}
+print('[1] main.tsv 파일을 불러오는 중')
+main_tsv = './main.tsv'
+try:
+  main = pd.read_csv(main_tsv, sep='\t', header=1)
+except:
+  print('폴더에서 main.tsv 파일을 찾지 못했습니다. 직접 파일을 선택해주세요.')
+  main_tsv = filedialog.askopenfilename(initialdir="./", title = "main")
+  main = pd.read_csv(main_tsv, sep='\t', header=1)
+print('불러오기 완료')
 
-print('replacing values...')
+print('[2] dict.tsv 파일을 불러오는 중')
+dict_tsv = './dict.tsv'
+try:
+  with open(dict_tsv, newline='', encoding='UTF-8') as f:
+    reader = csv.DictReader(f, delimiter='\t')
+    dicts = {rows['key']:rows['value']+'@' for rows in reader}
+except:
+  print('폴더에서 dict.tsv 파일을 찾지 못했습니다. 직접 파일을 선택해주세요.')
+  dict_tsv = filedialog.askopenfilename(initialdir="./", title = "dictonary")
+  with open(dict_tsv, newline='', encoding='UTF-8') as f:
+    reader = csv.DictReader(f, delimiter='\t')
+    dicts = {rows['key']:rows['value']+'@' for rows in reader}
+print('불러오기 완료')
+
+print('[3] 찾아 바꾸기 처리중')
 n = 1
 for keys, values in dicts.items():
   main['text'] = main['text'].str.replace(keys, values, regex=False)
   print('\r%d/%d'%(n,len(dicts.keys())), end='')
   n += 1
-print('')
-main_text = main[main['text'].str.contains('@', na=True)]
-main_text = main_text.dropna()
+print(' 완료')
+main_text = main[main['text'].str.contains('@', na=True)].dropna()
 
-print('correcting postpositions...')
+print('[4] 조사 처리중')
 # for i in main_text.index.values:
 #   print(i)
 #   try:
@@ -65,14 +79,18 @@ print('correcting postpositions...')
 #     pass
 n2 = 1
 for i in main_text.index.values:
-#   prestring = main['text'].iloc[i]
-#   poststring = tossier(prestring)
+  prestring = main['text'].iloc[i]
+  poststring = tossier(prestring)
   main['text'].iloc[i] = tossier(main['text'].iloc[i])
   print('\r%d/%d'%(n2,len(main_text.index.values)), end='')
   n2 += 1
-print('')
+print(' 완료')
 
-print('exporting tsv file...')
+print('[5] exported.tsv 파일로 내보내는 중')
+firstrow = {'Loc', 'PackedFile 1', ''}
 main.to_csv('exported.tsv', sep='\t', index=False)
-print('export complete')
-
+# with open('./exported.tsv', 'rb+') as fp:
+#   file_text = fp.read()
+#   fp.seek(0)
+#   fp.write(b'Loc\tPackedFile 1\n' + file_text)
+print('내보내기 완료')
