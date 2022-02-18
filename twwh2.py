@@ -40,11 +40,11 @@ def tossier(inputstring):
 print('[1] main.tsv 파일을 불러오는 중')
 main_tsv = './main.tsv'
 try:
-  main = pd.read_csv(main_tsv, sep='\t', header=1)
+  main = pd.read_csv(main_tsv, sep='\t', header=0)
 except:
   print('폴더에서 main.tsv 파일을 찾지 못했습니다. 직접 파일을 선택해주세요.')
   main_tsv = filedialog.askopenfilename(initialdir="./", title = "main")
-  main = pd.read_csv(main_tsv, sep='\t', header=1)
+  main = pd.read_csv(main_tsv, sep='\t', header=0)
 print('불러오기 완료')
 
 print('[2] dict.tsv 파일을 불러오는 중')
